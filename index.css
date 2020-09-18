@@ -62,7 +62,6 @@ html, body {
 
 #header .container .contact-info ul li a {
     color: aliceblue;
-    text-decoration: none;
     height: 80px;
     display: block;
     line-height: 80px;
@@ -121,15 +120,16 @@ html, body {
     width: 100%;
     margin-top: 30px;
 }
+
 /* end feature */
 
 /* new */
-#Latest-New{
+#Latest-New {
     width: 100%;
     margin-top: 30px;
 }
 
-#Latest-New .new{
+#Latest-New .new {
     width: 750px;
     margin: 0px auto;
 
