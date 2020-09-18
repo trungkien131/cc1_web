@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92da3ed5-aaca-4f65-87a7-521d436e4644" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gxYiQ9HP4cAbD7ZuIdy3u9dBmc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92da3ed5-aaca-4f65-87a7-521d436e4644" name="Default Changelist" comment="" />
+      <created>1599057838606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599057838606</updated>
+      <workItem from="1599057839964" duration="1510000" />
+      <workItem from="1599062553698" duration="43000" />
+      <workItem from="1599145600653" duration="1154000" />
+      <workItem from="1599188728466" duration="1775000" />
+      <workItem from="1599492629536" duration="248000" />
+      <workItem from="1599748293202" duration="676000" />
+      <workItem from="1599827495243" duration="955000" />
+      <workItem from="1599875132063" duration="50394000" />
+      <workItem from="1600177404082" duration="665000" />
+      <workItem from="1600352593816" duration="29367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="69" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1600401483790">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="283" y="69" width="800" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.738@0.0.1366.738" timestamp="1600401483790" />
+    <state x="457" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599875188368">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="457" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1599875188368" />
+    <state x="184" y="13" key="SettingsEditor" timestamp="1600402067864">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1600402067864" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1599901887116">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599901887116" />
+  </component>
+</project>

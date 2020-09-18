@@ -1,0 +1,175 @@
+a:hover {
+    background-color: #1b9ce3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: #1b9ce3;
+}
+
+#header .container {
+    width: 1140px;
+    margin: 0px auto;
+    height: 80px;
+}
+
+#header .container .logo {
+    float: left;
+    width: 600px;
+}
+
+
+#header .container .logo a {
+    font-size: 27px;
+    display: block;
+    font-weight: 750;
+    color: aliceblue;
+    line-height: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#header .container .contact-info {
+    float: left;
+    width: 540px;
+    text-decoration: none;
+    height: 80px;
+}
+
+#header .container .contact-info ul {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+#header .container .contact-info ul li {
+    display: inline-block;
+    height: 80px;
+    margin-left: 20px;
+}
+
+#header .container .contact-info ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    height: 80px;
+    display: block;
+    line-height: 80px;
+    font-size: 12px;
+}
+
+#header .container .contact-info ul i {
+    color: aliceblue;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#banner img {
+    width: 100%;
+    height: 500px;
+}
+
+/* star feature */
+
+#feature {
+    width: 100%;
+
+}
+
+#feature .container {
+    width: 750px;
+    margin: 0px auto;
+    min-height: 300px;
+}
+
+#feature .container .left,
+#feature .container .right {
+    float: left;
+}
+
+#feature .container .left {
+    width: 360px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#feature .container .left p1 {
+    font-size: 11px;
+}
+
+#feature .container .left p {
+    font-size: 15px;
+}
+
+#feature .container .right {
+    width: 360px;
+    padding: 15px;
+}
+
+#feature .container .right img {
+    width: 100%;
+    margin-top: 30px;
+}
+/* end feature */
+
+/* new */
+#Latest-New{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#Latest-New .new{
+    width: 750px;
+    margin: 0px auto;
+
+}
+
+
+/* end new */
+#footer {
+    background-color: black;
+    width: 100%;
+
+}
+
+#footer .information {
+    color: gray;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer .information .link a {
+    color: gray;
+    text-decoration: none;
+}
+
+#footer .information .search input {
+    background: black;
+}
+
+#footer .date {
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    color: aliceblue;
+}
+
+#footer .date p {
+    font-size: 13px;
+
+}
+
+
