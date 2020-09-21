@@ -8,13 +8,6 @@ a:hover {
     box-sizing: border-box;
 }
 
-/*div {*/
-/*    float: left;*/
-/*}*/
-
-.width100{
-    width: 100%;
-}
 
 html, body {
     font-family: sans-serif;
@@ -26,19 +19,14 @@ html, body {
     background-color: #1b9ce3;
 }
 
-#header .container {
-    width: 1140px;
-    margin: 0px auto;
-    height: 80px;
-}
 
-#header .container .logo {
+#header .logo {
     float: left;
-    width: 600px;
+    width: 55%;
 }
 
 
-#header .container .logo a {
+#header .logo a {
     font-size: 27px;
     display: block;
     font-weight: 750;
@@ -48,27 +36,27 @@ html, body {
     text-align: center;
 }
 
-#header .container .contact-info {
+#header .contact-info {
     float: left;
-    width: 540px;
+    width: 45%;
     text-decoration: none;
     height: 80px;
 }
 
-#header .container .contact-info ul {
+#header .contact-info ul {
     margin: 0px;
     padding: 0px;
 
 
 }
 
-#header .container .contact-info ul li {
+#header .contact-info ul li {
     display: inline-block;
     height: 80px;
     margin-left: 20px;
 }
 
-#header .container .contact-info ul li a {
+#header .contact-info ul li a {
     color: aliceblue;
     text-decoration: none;
     height: 80px;
@@ -77,7 +65,7 @@ html, body {
     font-size: 12px;
 }
 
-#header .container .contact-info ul i {
+#header .contact-info ul i {
     color: aliceblue;
     font-size: 13px;
     margin-right: 20px;
@@ -90,12 +78,16 @@ html, body {
 
 /* star feature */
 
+
 #feature {
     width: 100%;
     margin-top: 40px;
     display: flex;
 }
 
+#feature .width100 {
+    width: 100%;
+}
 
 #feature div {
     width: 50%;
@@ -109,14 +101,17 @@ html, body {
     font-size: 15px;
 }
 
+#feature .left i {
+    color: #1b9ce3;
+}
+
 #feature .left {
-    padding: 0 1% 0 25%;
+    padding: 0 1% 0 23%;
 
 }
 
 #feature .right {
-    float: right;
-    padding: 0 25% 0 1%;
+    padding: 0 23% 0 1%;
 }
 
 #feature .right img {
@@ -124,19 +119,188 @@ html, body {
 }
 
 /* end feature */
+#Our-business {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    color: aliceblue;
+    float: left;
+}
+
+#Our-business .education {
+    width: 50%;
+    height: 430px;
+    float: left;
+    background: url("https://i.imgur.com/5AVVaKY.jpg") no-repeat;
+}
+
+#Our-business .consulting {
+    width: 50%;
+    float: right;
+    height: 430px;
+    background: url("https://i.imgur.com/YE6srBq.jpg") no-repeat;
+}
+
+#Our-business .consulting .form ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#Our-business .consulting .form ul {
+    list-style-type: none;
+}
+
+#Our-business .consulting .form img {
+    border-radius: 50%;
+    width: 5%;
+}
+
+#Our-business .consulting .form {
+    margin-left: -15px;
+}
+
+#Our-business .consulting .form h5 {
+    margin: 40px 0 30px 100px;
+    font-size: 10px;
+}
 
 /* new */
 #Latest-New {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 #Latest-New .new {
-    width: 750px;
-    margin: 0px auto;
+    display: flex;
+    padding: 0 23% 0 22%;
 
 }
 
+#Latest-New .new .form {
+    font-weight: 600;
+    color: black;
+    margin: 6px;
+
+}
+
+#Latest-New .new .read {
+    font-weight: 700;
+    color: black;
+    font-size: 10px;
+    margin: 6px;
+}
+
+#Latest-New .new i {
+    font-size: 9px;
+}
+
+#Latest-New .new p {
+    font-size: 12px;
+    margin: 6px;
+}
+
+
+#Latest-New .width100 {
+    padding-left: 23%;
+}
+
+#Latest-New .width100 i {
+    color: #1b9ce3;
+}
+
+#Latest-New .new div {
+    margin-left: 15px;
+    border: 1px solid gray;
+    height: 50%;
+}
+
+
+#Latest-New .new .head img {
+    width: 230px;
+    height: 130px;
+}
+
+
+#Latest-New .new .Between img {
+    width: 230px;
+    height: 130px;
+}
+
+
+#Latest-New .new .end img {
+    width: 230px;
+    height: 130px;
+}
+
+#Latest-New .new a {
+    text-decoration: none;
+}
+
+
+#contacts {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#contacts div {
+    width: 50%;
+}
+
+#contacts .contacts-right {
+    padding: 0 1% 0 23%;
+}
+
+#contacts .contacts-left {
+    padding: 0 23% 0 1%;
+}
+
+#contacts .contacts-left img {
+    width: 100%;
+}
+
+#contacts .contacts-right p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#contacts .contacts-right i {
+    color: #1b9ce3;
+}
+
+#contacts .contacts-right .input {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contacts .contacts-right .input input {
+    width: 107px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#textarea {
+    margin-top: 15px;
+    margin-left: 23%;
+}
+
+#buttun {
+    text-align: center;
+}
+
+#buttun button {
+    width: 10%;
+    height: 30px;
+    background: #ffb100;
+    border: #ffb100;
+    color: whitesmoke;
+    border-radius: 2px;
+}
 
 /* end new */
 #footer {
@@ -150,7 +314,13 @@ html, body {
     font-size: 11px;
     display: flex;
     justify-content: center;
+    height: 165px;
+    margin-top: 30px;
+}
 
+#footer .information div {
+    margin-top: 35px;
+    margin-left: 80px;
 }
 
 #footer .information .link a {
@@ -164,14 +334,19 @@ html, body {
 
 #footer .date {
     width: 300px;
-    height: 20px;
+    height: 25px;
     margin: auto;
     color: aliceblue;
 }
 
 #footer .date p {
     font-size: 13px;
+    margin-top: 12px;
 
 }
+
+
+
+
 
 
