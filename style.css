@@ -13,6 +13,11 @@ html, body {
     font-family: sans-serif;
 }
 
+body i {
+    width: 15px;
+}
+
+
 #header {
     width: 100%;
     height: 80px;
@@ -40,26 +45,21 @@ html, body {
     float: left;
     width: 45%;
     text-decoration: none;
-    height: 80px;
 }
 
 #header .contact-info ul {
     margin: 0px;
     padding: 0px;
-
-
 }
 
 #header .contact-info ul li {
     display: inline-block;
-    height: 80px;
     margin-left: 20px;
 }
 
 #header .contact-info ul li a {
     color: aliceblue;
     text-decoration: none;
-    height: 80px;
     display: block;
     line-height: 80px;
     font-size: 12px;
@@ -73,7 +73,6 @@ html, body {
 
 #banner img {
     width: 100%;
-    height: 500px;
 }
 
 /* star feature */
@@ -154,15 +153,31 @@ html, body {
 
 #Our-business .consulting .form img {
     border-radius: 50%;
-    width: 5%;
 }
 
 #Our-business .consulting .form {
-    margin-left: -15px;
+    margin-left: -20px;
+}
+
+#Our-business .consulting .form ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#Our-business .consulting .form .contact-text p {
+    font-size: 11px;
+}
+
+#Our-business .consulting .form .contact-text a {
+    font-size: 25px;
+}
+
+#Our-business .consulting .form .contact-text {
+    margin-left: 30px;
 }
 
 #Our-business .consulting .form h5 {
-    margin: 40px 0 30px 100px;
+    margin: 40px 0 30px 70px;
     font-size: 10px;
 }
 
@@ -178,11 +193,14 @@ html, body {
 
 }
 
+#Latest-New .width100 {
+    font-size: 12px;
+}
+
 #Latest-New .new .form {
     font-weight: 600;
     color: black;
-    margin: 6px;
-
+    margin-left: 6px;
 }
 
 #Latest-New .new .read {
@@ -208,9 +226,11 @@ html, body {
 
 #Latest-New .width100 i {
     color: #1b9ce3;
+    width: 15px;
 }
 
 #Latest-New .new div {
+    width: 33%;
     margin-left: 15px;
     border: 1px solid gray;
     height: 50%;
@@ -218,19 +238,19 @@ html, body {
 
 
 #Latest-New .new .head img {
-    width: 230px;
+    width: 100%;
     height: 130px;
 }
 
 
 #Latest-New .new .Between img {
-    width: 230px;
+    width: 100%;
     height: 130px;
 }
 
 
 #Latest-New .new .end img {
-    width: 230px;
+    width: 100%;
     height: 130px;
 }
 
@@ -313,14 +333,14 @@ html, body {
     color: gray;
     font-size: 11px;
     display: flex;
-    justify-content: center;
     height: 165px;
     margin-top: 30px;
+    padding-left: 15%;
 }
 
 #footer .information div {
     margin-top: 35px;
-    margin-left: 80px;
+    margin-left: 75px;
 }
 
 #footer .information .link a {
@@ -330,6 +350,8 @@ html, body {
 
 #footer .information .search input {
     background: black;
+    border: 1px solid black;
+    margin-top: 15px;
 }
 
 #footer .date {
@@ -342,10 +364,7 @@ html, body {
 #footer .date p {
     font-size: 13px;
     margin-top: 12px;
-
 }
-
-
 
 
 
