@@ -1,18 +1,13 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 .navbar {
-    background: #1b9ce3;
-    height: 80px;
+    /*background: aliceblue;*/
 }
 
-.navbar a{
+.navbar a {
     color: aliceblue;
 }
-.navbar i{
+
+.navbar i {
     color: aliceblue;
 }
 
