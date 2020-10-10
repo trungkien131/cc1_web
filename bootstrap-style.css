@@ -4,11 +4,11 @@
 }
 
 .navbar a {
-    color: aliceblue;
+    color: aliceblue !important;
 }
 
 .navbar i {
-    color: aliceblue !important;
+    color: aliceblue;
 }
 
 
