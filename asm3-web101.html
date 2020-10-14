@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Asm3</title>
-    <link rel="stylesheet" href="bootstrap-style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <script src="jquery/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md navbar-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">CREVEA Inc.</a>
+<nav class="navbar navbar-expand-md navbar-light sticky-top" id="header">
+    <div class="container-fluid logo text-center">
         <buttun class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </buttun>
+        <a class="navbar-brand" href="#">CREVEA Inc.</a>
+        <i class="fa fa-search" aria-hidden="true"></i>
     </div>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <div class="collapse navbar-collapse contact-info" id="navbarResponsive">
         <ul class="navbar-nav ml-auto text-nowrap">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">OUR BUSINESS</a></li>
             <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
             <li class="nav-item"><a class="nav-link" href="#">NEWS</a></li>
             <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-            <li class="nav-item"><i class="fa fa-search" aria-hidden="true"></i></li>
         </ul>
     </div>
 </nav>
@@ -35,149 +35,163 @@
     <img class="img-fluid" src="https://i.imgur.com/z7MBEsN.jpg">
 </div>
 
-<div id="feature">
-    <div class="left">
-        <h6><i class="fa fa-minus" aria-hidden="true"></i>ABOUT US</h6><br>
-        <p><b>Out goal is "to support and connect educational institutions,companies across the world by providing
-            highly qualified skilled human resource for mutual development and consulting services in job and skills
-            training".Achieving this,we
-            hope to contribute to the betterment of society.</b></p><br>
-        <p1>Our staff are highly experienced and senior members of diverse backgroudns in educational institutions
-            and companies in Vietnam and other territories across the globe .we could provide superior services to
-            our
-            customer.
-        </p1>
-    </div>
-    <div class="right">
-        <IMG class="img" src="https://i.imgur.com/RsFGT4B.jpg">
+<div class="container feature">
+    <div class="row justify-content-center">
+        <div class="col-md-6 left">
+            <h6><i class="fa fa-minus" aria-hidden="true"></i>ABOUT US</h6><br>
+            <p><b>Out goal is "to support and connect educational institutions,companies across the world by providing
+                highly qualified skilled human resource for mutual development and consulting services in job and skills
+                training".Achieving this,we
+                hope to contribute to the betterment of society.</b></p><br>
+            <p1>Our staff are highly experienced and senior members of diverse backgroudns in educational institutions
+                and companies in Vietnam and other territories across the globe .we could provide superior services to
+                our
+                customer.
+            </p1>
+        </div>
+        <div class="col-md-6 right">
+            <img class="img-fluid" src="https://i.imgur.com/RsFGT4B.jpg">
+        </div>
     </div>
 </div>
 
-<!--<div id="Our-business">-->
-<!--    <div class="education">-->
-<!--        &lt;!&ndash;        <img src="https://i.imgur.com/5AVVaKY.jpg">&ndash;&gt;-->
-<!--    </div>-->
-<!--    <div class="consulting">-->
-<!--        &lt;!&ndash;        <img src="https://i.imgur.com/YE6srBq.jpg">&ndash;&gt;-->
-<!--        <div class="form">-->
-<!--            <h5><i class="fa fa-minus" aria-hidden="true"></i>Our-business</h5>-->
-<!--            <ul>-->
-<!--                <li>-->
-<!--                    <div>-->
-<!--                        <img src="https://i.imgur.com/g8Uz5Ei.jpg" width="40" height="40">-->
-<!--                    </div>-->
-<!--                    <div class="contact-text">-->
-<!--                        <a href="#">Education consulting</a>-->
-<!--                        <p>We offer various services as required from different educational institutions in Vietnam</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <div>-->
-<!--                        <img src="https://i.imgur.com/F5Chde2.png" width="40" height="40">-->
-<!--                    </div>-->
-<!--                    <div class="contact-text">-->
-<!--                        <a href="#">Business consulting</a>-->
-<!--                        <p>We provide various services accoding to requests from foreign companies and educational-->
-<!--                            institutions.</p>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+<div id="Our-business" class="container-fluid">
+    <div class="row">
+        <div class="education col-md-6">
+            <!--        <img src="https://i.imgur.com/5AVVaKY.jpg">-->
+        </div>
+        <div class="consulting col-md-6">
+            <!--        <img src="https://i.imgur.com/YE6srBq.jpg">-->
+            <div class="form">
+                <ul>
+                    <h5><i class="fa fa-minus" aria-hidden="true"></i>Our-business</h5>
+                    <li>
+                        <div>
+                            <img src="https://i.imgur.com/g8Uz5Ei.jpg" width="40" height="40">
+                        </div>
+                        <div class="contact-text">
+                            <a href="#">Education consulting</a>
+                            <p>We offer various services as required from different educational institutions in
+                                Vietnam</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="https://i.imgur.com/F5Chde2.png" width="40" height="40">
+                        </div>
+                        <div class="contact-text">
+                            <a href="#">Business consulting</a>
+                            <p>We provide various services accoding to requests from foreign companies and educational
+                                institutions.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!--<div id="Latest-New">-->
-<!--    <div class="width100">-->
-<!--        <p><i class="fa fa-minus" aria-hidden="true"></i>News</p>-->
-<!--        <br>-->
-<!--        <h1>Latest News</h1>-->
-<!--    </div>-->
-<!--    <div class="new">-->
-<!--        <div class="head">-->
-<!--            <img src="https://i.imgur.com/9oymWKS.jpg">-->
-<!--            <a href="#" class="form">Japanese staff agency company visited to Hanoi</a><br>-->
-<!--            <a href="#" class="read">Read more...<i class="fa fa-long-arrow-right" aria-hidden="true"></i>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div class="Between">-->
-<!--            <img src="https://i.imgur.com/N9c8DaB.jpg"><br>-->
-<!--            <a href="#" class="form">Taiwanese university visited to Hanoi</a><br>-->
-<!--            <a href="#" class="read">Read more...<i class="fa fa-long-arrow-right" aria-hidden="true"></i>-->
-<!--            </a>-->
-<!--        </div>-->
-<!--        <div class="end">-->
-<!--            <img src="https://i.imgur.com/jmrZrhu.jpg">-->
-<!--            <a href="#" class="form">We are pleased to announce the renewal of CREVEA Inc. official wedsite.</a><br>-->
-<!--            <p>We changed te whole design and format to create more efficient and superior experience for our-->
-<!--                customers once they visit the wedsite.We will continue updating it and providing more useful-->
-<!--                information. The website in japanese will come out-->
-<!--                soon.</p>-->
-<!--            <a href="#" class="read">Read more...<i class="fa fa-long-arrow-right" aria-hidden="true"></i>-->
-<!--                </i></a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+<div class="container">
+    <div class="width100">
+        <p class="icon"><i class="fa fa-minus" aria-hidden="true"></i>News</p>
+        <br>
+        <h1>Latest News</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="img-fluid" src="https://i.imgur.com/9oymWKS.jpg">
+                    <a href="#" class="form">Japanese staff agency company visited to Hanoi</a><br>
+                    <a href="#" class="read">Read more&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="img-fluid" src="https://i.imgur.com/N9c8DaB.jpg"><br>
+                    <a href="#" class="form">Taiwanese university visited to Hanoi</a><br>
+                    <a href="#" class="read">Read more&nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="img-fluid" src="https://i.imgur.com/jmrZrhu.jpg">
+                    <a href="#" class="form">We are pleased to announce the renewal of CREVEA Inc. official
+                        wedsite.</a><br>
+                    <p>We changed te whole design and format to create more efficient and superior experience for
+                        our
+                        customers once they visit the wedsite.We will continue updating it and providing more useful
+                        information. The website in japanese will come out
+                        soon.</p>
+                    <a href="#" class="read">Read more &nbsp;<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!--<div id="contacts">-->
-<!--    <div class="contacts-right">-->
-<!--        <h6><i class="fa fa-minus" aria-hidden="true"></i>Contacts</h6><br>-->
-<!--        <p>We will connect you with the relevant person in charge.Please click"Send Button" after providing your-->
-<!--            registering inpus.</p>-->
-<!--        <div class="input">-->
-<!--            <input type="text" placeholder="Your name">-->
-<!--            <input type="text" placeholder="Email address">-->
-<!--            <input type="text" placeholder="phone number">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="contacts-left">-->
-<!--        <img src="https://i.imgur.com/o9NCdFV.png">-->
-<!--    </div>-->
-<!--</div>-->
+<div class="container contacts">
+    <div class="row">
+        <div class="col-md-4 col-lg-6">
+            <h6><i class="fa fa-minus" aria-hidden="true"></i>Contacts</h6><br>
+            <p>We will connect you with the relevant person in charge.Please click"Send Button" after providing
+                your
+                registering inpus.</p>
+            <div class="row imput">
+                <input class="col-md-4" type="text" placeholder="Your name">
+                <input class="col-md-4" type="text" placeholder="Email address">
+                <input class="col-md-4" type="text" placeholder="phone number">
+            </div>
+            <div class="row textarea">
+                <textarea class="col-lg-12" placeholder="Your message" rows="8"></textarea>
+            </div>
+            <div id="buttun" class="text-center">
+                <button type="button" class="btn btn-warning">Send Message</button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="img-fluid" src="https://i.imgur.com/o9NCdFV.png">
+        </div>
+    </div>
+</div>
 
-<!--<div id="textarea">-->
-<!--    <textarea placeholder="Your message" rows="8" cols="49"></textarea>-->
-<!--</div>-->
 
-<!--<div id="buttun">-->
-<!--    <button type="button">Send Message</button>-->
-<!--</div>-->
+<div class="container-fluid" id="footer">
+    <div class="container row information">
+        <div class="col-md-3">
+            <h5>CREVEA</h5>
+            <p>Add:NO 45C ,210 alley Hoang Quoc Viet <br>street Cau Giay - Ha Noi - Viet Nam</p>
+            <p>Tell : (+84)-989-412-665</p>
+            <p>Email: daisuke.kawashima@crevea.vn</p>
+            <p>Follow us on:</p>
+        </div>
+        <div class="link col-md-3">
+            <h5>CATEGORYS</h5>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">Home</a><br>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">OUR BUSINESS</a><br>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">ABOUT US</a><br>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">NEWS</a><br>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">COMTACT</a><br>
+        </div>
+        <div class="link col-md-3">
+            <h5>LANGUAGE</h5>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">English</a><br>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">Japanese</a><br>
+        </div>
+        <div class="search col-md-3">
+            <h5>GETS OUR NEWS FROM US</h5>
+            <p>Please enter the email below to not miss<br>the lates news from us!</p>
+            <input type="text" placeholder="your email enter">&nbsp;&nbsp;
+            <button type="button">submit</button>
+            <hr width="100%" align="center"/>
 
-<!--<div id="footer">-->
-<!--    <div class="information">-->
-<!--        <div>-->
-<!--            <h2>CREVEA</h2>-->
-<!--            <p>Add:NO 45C ,210 alley Hoang Quoc Viet <br>street Cau Giay - Ha Noi - Viet Nam</p>-->
-<!--            <p>Tell : (+84)-989-412-665</p>-->
-<!--            <p>Email: daisuke.kawashima@crevea.vn</p>-->
-<!--            <p>Follow us on:</p>-->
-<!--        </div>-->
-<!--        <div class="link">-->
-<!--            <h2>CATEGORYS</h2>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">Home</a><br>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">OUR BUSINESS</a><br>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">ABOUT US</a><br>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">NEWS</a><br>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">COMTACT</a><br>-->
-<!--        </div>-->
-<!--        <div class="link">-->
-<!--            <h2>LANGUAGE</h2>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">English</a><br>-->
-<!--            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">Japanese</a><br>-->
-<!--        </div>-->
-<!--        <div class="search">-->
-<!--            <h2>GETS OUR NEWS FROM US</h2>-->
-<!--            <p>Please enter the email below to not miss<br>the lates news from us!</p>-->
-<!--            <input type="text" placeholder="your email enter">&nbsp;&nbsp;-->
-<!--            <button type="button">submit</button>-->
-<!--            <hr width="100%" align="center"/>-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--    <hr width="100%" align="center"/>-->
-<!--    <div class="date">-->
-<!--        <p>&#169; 2018 CREVEA Inc. All rights Reversed.</p>-->
-<!--    </div>-->
-<!--</div>-->
-
+        </div>
+    </div>
+    <hr width="100%" align="center"/>
+    <div class="text-center date">
+        <p>&#169; 2018 CREVEA Inc. All rights Reversed.</p>
+    </div>
+</div>
 </body>
 </html>

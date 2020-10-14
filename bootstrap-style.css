@@ -1,7 +1,15 @@
 
+body i {
+    width: 15px !important;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
 .navbar {
+    width: 100%;
     background: #1b9ce3;
-    height: 80px;
 }
 
 .navbar a {
@@ -12,12 +20,197 @@
     color: aliceblue;
 }
 
+#header .logo a {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 750;
+}
+
+#header .contact-info {
+    width: 50%;
+}
+
+#header .contact-info ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#header .contact-info ul li a {
+    color: aliceblue;
+    display: block;
+    line-height: 80px;
+    font-size: 12px;
+}
+
+.feature {
+    margin-top: 40px;
+}
+
+.feature .left p1 {
+    font-size: 11px;
+}
+
+.feature .left p {
+    font-size: 15px;
+}
+
+.feature .left i {
+    color: #1b9ce3;
+}
+
+.feature .left {
+    padding: 0 1% 0 15%;
+    /**/
+}
+
+/**/
+.feature .right {
+    padding: 0 15% 0 1%;
+}
+
+.contacts {
+    margin-top: 100px;
+}
+
+.width100 .icon i {
+    color: #1b9ce3;
+}
+
+.width100 .row a {
+    color: black;
+}
+
+.width100 .row i {
+    font-size: 9px;
+
+}
+
+.width100 .row .form {
+    font-weight: 600;
+    color: black;
+    margin-left: 7px;
+}
+
+.width100 .row .read {
+    font-weight: 700;
+    color: black;
+    font-size: 12px;
+    margin: 7px;
+}
+
+.width100 .row p {
+    font-size: 14px;
+    margin: 6px;
+}
+
+#Our-business {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    color: aliceblue;
+    float: left;
+}
+
+#Our-business .education {
+    width: 50%;
+    height: 430px;
+    float: left;
+    background: url("https://i.imgur.com/5AVVaKY.jpg") no-repeat;
+}
+
+#Our-business .consulting {
+    width: 50%;
+    float: right;
+    height: 430px;
+    background: url("https://i.imgur.com/YE6srBq.jpg") no-repeat;
+}
+
+#Our-business .consulting .form ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#Our-business .consulting .form ul {
+    list-style-type: none;
+}
+
+#Our-business .consulting .form img {
+    border-radius: 50%;
+}
+
+
+#Our-business .consulting .form {
+    margin-left: -70px;
+}
+
+#Our-business .consulting .form ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#Our-business .consulting .form .contact-text p {
+    font-size: 11px;
+}
+
+#Our-business .consulting .form .contact-text a {
+    font-size: 25px;
+}
+
+#Our-business .consulting .form .contact-text {
+    margin-left: 30px;
+}
+
+#Our-business .consulting .form h5 {
+    margin: 40px 0 30px 70px;
+    font-size: 10px;
+}
+
+.container .row .textarea {
+    margin-top: 20px;
+}
+
+.contacts .row p {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.contacts .row i {
+    color: #1b9ce3;
+}
+
+#buttun {
+    margin-top: 5px;
+}
 
 #footer {
     background: black;
-    color: aliceblue;
+    color: gray;
 }
 
-#footer .information a {
-    color: aliceblue;
+#footer .information .link a {
+    color: gray;
+}
+
+#footer .information div {
+    margin-top: 35px;
+}
+
+#footer .information {
+    color: gray;
+    font-size: 11px;
+    margin-top: 60px;
+}
+
+#footer .information .search input {
+    background: black;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+#footer .date {
+    height: 25px;
+    font-size: 13px;
 }
