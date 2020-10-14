@@ -59,15 +59,13 @@ html, body {
     color: #1b9ce3;
 }
 
-.feature .left {
-    padding: 0 1% 0 15%;
-    /**/
-}
+/*.feature .left {*/
+/*    padding: 0 1% 0 15%;*/
+/*}*/
 
-/**/
-.feature .right {
-    padding: 0 15% 0 1%;
-}
+/*.feature .right {*/
+/*    padding: 0 15% 0 1%;*/
+/*}*/
 
 .contacts {
     margin-top: 100px;
