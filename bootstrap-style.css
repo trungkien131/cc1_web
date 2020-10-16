@@ -8,7 +8,6 @@ html, body {
 }
 
 .navbar {
-    /*width: 100%;*/
     background: #1b9ce3;
 }
 
@@ -29,7 +28,6 @@ html, body {
 #header .contact-info ul li a {
     color: aliceblue;
     display: block;
-    line-height: 80px;
     font-size: 12px;
 }
 
@@ -60,6 +58,7 @@ html, body {
 .contacts {
     margin-top: 100px;
 }
+
 
 .width100 .icon i {
     color: #1b9ce3;
@@ -93,26 +92,25 @@ html, body {
 }
 
 #Our-business {
-    width: 100%;
-    margin-top: 50px;
+    margin-top: 2rem;
     margin-bottom: 50px;
     color: aliceblue;
 }
 
-#Our-business .education {
-    width: 50%;
-    height: 430px;
-    float: left;
-    background: url("https://i.imgur.com/5AVVaKY.jpg") no-repeat;
-}
+/*#Our-business .education {*/
+/*    width: 50%;*/
+/*    height: 430px;*/
+/*    float: left;*/
+/*    background: url("https://i.imgur.com/5AVVaKY.jpg") no-repeat;*/
+/*}*/
 
-#Our-business .consulting {
-    width: 50%;
-    float: right;
-    height: 430px;
-    background: url("https://i.imgur.com/YE6srBq.jpg") no-repeat;
-}
-
+/*#Our-business .consulting {*/
+/*    width: 50%;*/
+/*    float: right;*/
+/*    height: 430px;*/
+/*    background: url("https://i.imgur.com/YE6srBq.jpg") no-repeat;*/
+/*}*/
+/* */
 #Our-business .consulting .form ul li a {
     text-decoration: none;
     color: aliceblue;
@@ -156,6 +154,17 @@ html, body {
 
 .container .row .textarea {
     margin-top: 20px;
+}
+
+.container .width100 .new img {
+    height: auto;
+
+}
+
+.col-md-3_5 {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
 }
 
 .contacts .row p {
