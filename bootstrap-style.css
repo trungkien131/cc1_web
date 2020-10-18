@@ -28,7 +28,7 @@ html, body {
 #header .contact-info ul li a {
     color: aliceblue;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .feature {
@@ -126,32 +126,6 @@ html, body {
 }
 
 
-#Our-business .consulting .form {
-    margin-left: -70px;
-}
-
-#Our-business .consulting .form ul li {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-#Our-business .consulting .form .contact-text p {
-    font-size: 11px;
-}
-
-#Our-business .consulting .form .contact-text a {
-    font-size: 25px;
-}
-
-#Our-business .consulting .form .contact-text {
-    margin-left: 30px;
-}
-
-#Our-business .consulting .form h5 {
-    margin: 40px 0 30px 70px;
-    font-size: 10px;
-}
-
 .container .row .textarea {
     margin-top: 20px;
 }
@@ -195,8 +169,18 @@ html, body {
 
 #footer .information {
     color: gray;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 60px;
+}
+
+#footer .search hr {
+    border-top: 1px solid gray;
+    width: 70%;
+}
+
+#footer .light {
+    border-top: 1px solid gray;
+    width: 100%;
 }
 
 #footer .information .search input {
@@ -208,4 +192,45 @@ html, body {
 #footer .date {
     height: 25px;
     font-size: 13px;
+}
+
+
+@media (max-width: 1326px) {
+    #Our-business .consulting .form {
+        margin-left: -80px;
+    }
+
+    #Our-business .consulting .form ul li {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    #Our-business .consulting .form .contact-text p {
+        font-size: 12px;
+    }
+
+    #Our-business .consulting .form .contact-text a {
+        font-size: 25px;
+    }
+
+    #Our-business .consulting .form .contact-text {
+        margin-left: 30px;
+    }
+
+    #Our-business .consulting .form h5 {
+        margin: 20px 0 20px 70px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
+    #Our-business .consulting .form .contact-text a {
+        font-size: 15px;
+    }
+
 }
