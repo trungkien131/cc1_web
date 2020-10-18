@@ -1,3 +1,4 @@
+/*CSS asm3-web101*/
 
 body i {
     width: 15px !important;
@@ -31,6 +32,11 @@ html, body {
     font-size: 14px;
 }
 
+#header .logo {
+    padding-left: 250px;
+}
+
+
 .feature {
     margin-top: 40px;
 }
@@ -46,14 +52,6 @@ html, body {
 .feature .left i {
     color: #1b9ce3;
 }
-
-/*.feature .left {*/
-/*    padding: 0 1% 0 15%;*/
-/*}*/
-
-/*.feature .right {*/
-/*    padding: 0 15% 0 1%;*/
-/*}*/
 
 .contacts {
     margin-top: 100px;
@@ -97,20 +95,7 @@ html, body {
     color: aliceblue;
 }
 
-/*#Our-business .education {*/
-/*    width: 50%;*/
-/*    height: 430px;*/
-/*    float: left;*/
-/*    background: url("https://i.imgur.com/5AVVaKY.jpg") no-repeat;*/
-/*}*/
 
-/*#Our-business .consulting {*/
-/*    width: 50%;*/
-/*    float: right;*/
-/*    height: 430px;*/
-/*    background: url("https://i.imgur.com/YE6srBq.jpg") no-repeat;*/
-/*}*/
-/* */
 #Our-business .consulting .form ul li a {
     text-decoration: none;
     color: aliceblue;
@@ -125,6 +110,35 @@ html, body {
     border-radius: 50%;
 }
 
+#Our-business {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+}
+
+#Our-business .consulting .form {
+    margin-left: -40px;
+}
+
+#Our-business .consulting .form ul li {
+    display: flex;
+}
+
+#Our-business .consulting .form .contact-text p {
+    font-size: 14px;
+}
+
+#Our-business .consulting .form .contact-text a {
+    font-size: 25px;
+}
+
+#Our-business .consulting .form .contact-text {
+    margin-left: 30px;
+}
+
+#Our-business .consulting .form h5 {
+    margin: 30px 0 30px 70px;
+    font-size: 13px;
+}
 
 .container .row .textarea {
     margin-top: 20px;
@@ -170,7 +184,7 @@ html, body {
 #footer .information {
     color: gray;
     font-size: 12px;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 #footer .search hr {
@@ -194,43 +208,59 @@ html, body {
     font-size: 13px;
 }
 
+/* CSS Our-business*/
 
-@media (max-width: 1326px) {
-    #Our-business .consulting .form {
-        margin-left: -80px;
+#business i {
+    color: #1b9ce3;
+}
+
+/*CSS ABOUT US*/
+
+/*CSS CONTACT*/
+#contact i {
+    font-size: 8px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
     }
 
-    #Our-business .consulting .form ul li {
-        display: flex;
-        margin-bottom: 20px;
+    #Our-business .consulting .form {
+        margin-left: 10px;
     }
 
     #Our-business .consulting .form .contact-text p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     #Our-business .consulting .form .contact-text a {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #Our-business .consulting .form .contact-text {
-        margin-left: 30px;
+        margin-left: 15px;
     }
 
     #Our-business .consulting .form h5 {
-        margin: 20px 0 20px 70px;
-        font-size: 12px;
+        margin: 10px 0 10px 50px;
+        font-size: 7px;
     }
-}
 
-@media (max-width: 768px) {
-
+    #header .logo {
+        padding-left: 20px
+    }
 }
 
 @media (max-width: 480px) {
 
     #Our-business .consulting .form .contact-text a {
         font-size: 15px;
+    }
+
+    body {
+        font-size: 12px;
     }
 
 }
