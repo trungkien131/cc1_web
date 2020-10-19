@@ -189,7 +189,7 @@ html, body {
 
 #footer .search hr {
     border-top: 1px solid gray;
-    width: 70%;
+    width: 100%;
 }
 
 #footer .light {
@@ -260,6 +260,12 @@ html, body {
     #header .logo {
         padding-left: 20px
     }
+    #footer .information {
+        color: gray;
+        font-size: 10px;
+        margin-top: 60px;
+    }
+
 }
 
 @media (max-width: 480px) {
