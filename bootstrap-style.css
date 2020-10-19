@@ -184,7 +184,7 @@ html, body {
 #footer .information {
     color: gray;
     font-size: 12px;
-    /*margin-top: 60px;*/
+    margin-top: 60px;
 }
 
 #footer .search hr {
@@ -219,6 +219,15 @@ html, body {
 /*CSS CONTACT*/
 #contact i {
     font-size: 8px;
+}
+
+#contact .head h6 {
+    font-weight: 700;
+}
+
+#contact .icons {
+    font-size: 15px;
+    color: #1b9ce3;
 }
 
 
