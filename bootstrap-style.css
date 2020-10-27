@@ -4,6 +4,11 @@ body i {
     width: 15px !important;
 }
 
+a:hover {
+    background-color: #1b9ce3;
+}
+
+
 html, body {
     font-family: sans-serif;
 }
@@ -30,10 +35,6 @@ html, body {
     color: aliceblue;
     display: block;
     font-size: 14px;
-}
-
-#header .logo {
-    padding-left: 250px;
 }
 
 
@@ -208,6 +209,13 @@ html, body {
     font-size: 13px;
 }
 
+.date {
+    background: black;
+    height: 30px;
+    color: gray;
+    font-size: 13px;
+}
+
 /* CSS Our-business*/
 
 #business i {
@@ -257,13 +265,15 @@ html, body {
         font-size: 7px;
     }
 
-    #header .logo {
-        padding-left: 20px
-    }
+
     #footer .information {
         color: gray;
+        font-size: 8px;
+        margin-top: 40px;
+    }
+
+    .date {
         font-size: 10px;
-        margin-top: 60px;
     }
 
 }
@@ -276,6 +286,19 @@ html, body {
 
     body {
         font-size: 12px;
+    }
+
+    .navbar {
+        background: white;
+    }
+
+    .navbar a {
+        color: #1b9ce3 !important;
+    }
+
+    .navbar i {
+        color: black;
+        font-size: 18px;
     }
 
 }

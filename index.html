@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Asm3</title>
+    <title>Asm4</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <script src="jquery/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -11,29 +11,31 @@
     <link rel="stylesheet" href="bootstrap-style.css">
 </head>
 <body>
-
+<!-- menu trang web -->
 <nav class="navbar navbar-expand-md navbar-light sticky-top" id="header">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="logo text-center">
-        <a class="navbar-brand font-weight-bolder fa-2x ml-20" href="#">CREVEA Inc.</a>
-    </div>
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="logo text-center">
+            <a class="navbar-brand font-weight-bolder fa-2x ml-20" href="#">CREVEA Inc.</a>
+        </div>
 
-    <div class="collapse navbar-collapse contact-info" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto text-nowrap">
-            <li class="nav-item"><a class="nav-link active" href="#" target="_blank">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="Our-business.html" target="_blank">OUR BUSINESS</a></li>
-            <li class="nav-item"><a class="nav-link" href="ABOUT%20US.html" target="_blank">ABOUT US</a></li>
-            <li class="nav-item"><a class="nav-link" href="NEWS.html" target="_blank">NEWS</a></li>
-            <li class="nav-item"><a class="nav-link" href="CONTACT.html" target="_blank">CONTACT</a></li>
-        </ul>
-    </div>
-    <div>
-        <i class="fa fa-search" aria-hidden="true"></i>
+        <div class="collapse navbar-collapse contact-info" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-nowrap">
+                <li class="nav-item"><a class="nav-link active" href="#" target="_blank">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Our-business.html" target="_blank">OUR BUSINESS</a></li>
+                <li class="nav-item"><a class="nav-link" href="ABOUT%20US.html" target="_blank">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="NEWS.html" target="_blank">NEWS</a></li>
+                <li class="nav-item"><a class="nav-link" href="CONTACT.html" target="_blank">CONTACT</a></li>
+            </ul>
+        </div>
+        <div>
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
     </div>
 </nav>
-
+<!--anh-->
 <div>
     <img class="img-fluid" src="https://i.imgur.com/z7MBEsN.jpg">
 </div>
@@ -60,10 +62,10 @@
 
 <div id="Our-business" class="container-fluid p-0 m-0">
     <div class=" row p-0 m-0">
-        <card class="education col-12 col-sm-6 col-md-6 p-0 m-0">
+        <div class="education col-12 col-sm-6 col-md-6 p-0 m-0">
             <img class="card-img img-fluid" src="https://i.imgur.com/5AVVaKY.jpg">
-        </card>
-        <card class="consulting col-12 col-sm-6 col-md-6 card-deck p-0 m-0">
+        </div>
+        <div class="consulting col-12 col-sm-6 col-md-6 card-deck p-0 m-0">
             <img class="card-img img-fluid" src="https://i.imgur.com/YE6srBq.jpg">
             <div class="card-img-overlay form">
                 <ul class="p-0">
@@ -90,7 +92,7 @@
                     </li>
                 </ul>
             </div>
-        </card>
+        </div>
     </div>
 </div>
 
@@ -174,41 +176,46 @@
         <button type="button" class="btn btn-warning">Send Message</button>
     </div>
 </div>
-
-<div class="container-fluid" id="footer">
-    <div class="row information justify-content-center">
-        <div class="col-md-2 col-sm-3">
-            <h6 class="font-weight-bolder">CREVEA</h6>
-            <p>Add:NO 45C ,210 alley Hoang Quoc Viet <br>street Cau Giay - Ha Noi - Viet Nam</p>
-            <p>Tell : (+84)-989-412-665</p>
-            <p>Email: daisuke.kawashima@crevea.vn</p>
-            <p>Follow us on:</p>
+<!-- chan trang -->
+<div id="footer">
+    <div class="container">
+        <div class="row information justify-content-center">
+            <div class="col-md-3 col-sm-3">
+                <h6 class="font-weight-bolder">CREVEA</h6>
+                <p>Add:NO 45C ,210 alley Hoang Quoc Viet <br>street Cau Giay - Ha Noi - Viet Nam</p>
+                <p>Tell : (+84)-989-412-665</p>
+                <p>Email: daisuke.kawashima@crevea.vn</p>
+                <p>Follow us on:</p>
+            </div>
+            <div class="link col-md-3 col-sm-3">
+                <h6 class="font-weight-bolder">CATEGORYS</h6>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">Home</a><br>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">OUR BUSINESS</a><br>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">ABOUT US</a><br>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">NEWS</a><br>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">COMTACT</a><br>
+            </div>
+            <div class="link col-md-3 col-sm-3">
+                <h6 class="font-weight-bolder">LANGUAGE</h6>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">English</a><br>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">Japanese</a><br>
+            </div>
+            <div class="search col-md-3 col-sm-3">
+                <h6 class="font-weight-bolder">GETS OUR NEWS FROM US</h6>
+                <p>Please enter the email below to not miss<br>the lates news from us!</p>
+                <input type="text" placeholder="your email enter">
+                <button type="button" class="btn-light custom">submit</button>
+                <hr>
+            </div>
         </div>
-        <div class="link col-md-2 col-sm-3">
-            <h6 class="font-weight-bolder">CATEGORYS</h6>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">Home</a><br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">OUR BUSINESS</a><br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">ABOUT US</a><br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">NEWS</a><br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i></i><a href="#">COMTACT</a><br>
-        </div>
-        <div class="link col-md-2 col-sm-3">
-            <h6 class="font-weight-bolder">LANGUAGE</h6>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">English</a><br>
-            <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="#">Japanese</a><br>
-        </div>
-        <div class="search col-md-2 col-sm-3">
-            <h6 class="font-weight-bolder">GETS OUR NEWS FROM US</h6>
-            <p>Please enter the email below to not miss<br>the lates news from us!</p>
-            <input type="text" placeholder="your email enter">
-            <button type="button" class="btn-light custom">submit</button>
-            <hr>
-        </div>
-    </div>
-    <hr class="light">
-    <div class="date text-center">
-        <p>&#169; 2018 CREVEA Inc. All rights Reversed.</p>
     </div>
 </div>
+
+<hr class="light p-0 m-0">
+
+<div class="container-fluid date text-center p-0 m-0">
+    <p>&#169; 2018 CREVEA Inc. All rights Reversed.</p>
+</div>
+
 </body>
 </html>
